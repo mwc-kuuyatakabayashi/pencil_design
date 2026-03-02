@@ -1,0 +1,2334 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "t8IkY",
+      "x": 0,
+      "y": 0,
+      "name": "サイトトップ",
+      "width": 1440,
+      "fill": "#FAF8F5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "1oJRs",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 76,
+          "fill": "#FFFFFF",
+          "gap": 48,
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "abDpZ",
+              "name": "logoText",
+              "fill": "#2D2D2D",
+              "content": "漢方薬 株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "frame",
+              "id": "CCTjB",
+              "name": "navRow",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HDVli",
+                  "name": "nav1",
+                  "fill": "#7C9082",
+                  "content": "サイトトップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "4AJNP",
+                  "name": "nav2",
+                  "fill": "#8A8A8A",
+                  "content": "会社概要",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Pb41Y",
+                  "name": "nav3",
+                  "fill": "#8A8A8A",
+                  "content": "製品一覧",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "hXled",
+                  "name": "nav4",
+                  "fill": "#8A8A8A",
+                  "content": "沿革",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "sYJKw",
+                  "name": "nav5",
+                  "fill": "#8A8A8A",
+                  "content": "お問い合わせ",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ayShK",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 500,
+          "fill": "#F0EDE8",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "qtlnH",
+              "name": "heroHeadline",
+              "fill": "#2D2D2D",
+              "content": "自然のちからで、",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "2fqhy",
+              "name": "heroHeadline2",
+              "fill": "#2D2D2D",
+              "content": "健やかな毎日を。",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "ZVkb9",
+              "name": "heroSub",
+              "fill": "#5A5A5A",
+              "textGrowth": "fixed-width",
+              "width": 480,
+              "content": "創業より受け継ぐ漢方の知恵を、現代のくらしにお届けします。",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "eEfY1",
+              "name": "ctaFrame",
+              "fill": "#7C9082",
+              "cornerRadius": 24,
+              "padding": [
+                16,
+                32
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LfWIt",
+                  "name": "ctaText",
+                  "fill": "#FFFFFF",
+                  "content": "製品を見る",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cI5xO",
+          "name": "sectionWrap",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 80,
+          "children": [
+            {
+              "type": "text",
+              "id": "uKKKP",
+              "name": "sectionTitle",
+              "fill": "#2D2D2D",
+              "content": "私たちの想い",
+              "fontFamily": "Inter",
+              "fontSize": 32,
+              "letterSpacing": -0.5
+            },
+            {
+              "type": "text",
+              "id": "jjTZH",
+              "name": "sectionDesc",
+              "fill": "#5A5A5A",
+              "textGrowth": "fixed-width",
+              "width": 800,
+              "content": "漢方薬株式会社は、古来より伝わる漢方の知恵を現代に活かし、",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ZmISD",
+              "name": "sectionDesc2",
+              "fill": "#5A5A5A",
+              "textGrowth": "fixed-width",
+              "width": 800,
+              "content": "皆様の健やかな毎日をお支えすることを使命としています。",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "KITVT",
+              "name": "cardRow",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NrYRz",
+                  "name": "card1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E8E4DF"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RiRC3",
+                      "name": "card1Title",
+                      "fill": "#2D2D2D",
+                      "content": "品質へのこだわり",
+                      "fontFamily": "Inter",
+                      "fontSize": 20
+                    },
+                    {
+                      "type": "text",
+                      "id": "XRWqn",
+                      "name": "card1Body",
+                      "fill": "#5A5A5A",
+                      "textGrowth": "fixed-width",
+                      "width": 380,
+                      "content": "厳選された生薬と製造工程で、安心・安全な製品をお届けします。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nofMz",
+                  "name": "card2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K1wRe",
+                      "name": "card2Title",
+                      "fill": "#2D2D2D",
+                      "content": "研究開発",
+                      "fontFamily": "Inter",
+                      "fontSize": 20
+                    },
+                    {
+                      "type": "text",
+                      "id": "zakhy",
+                      "name": "card2Body",
+                      "fill": "#5A5A5A",
+                      "textGrowth": "fixed-width",
+                      "width": 380,
+                      "content": "伝統と科学の融合により、新しい価値を創造し続けています。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wq2za",
+                  "name": "card3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JW0vE",
+                      "name": "card3Title",
+                      "fill": "#2D2D2D",
+                      "content": "社会貢献",
+                      "fontFamily": "Inter",
+                      "fontSize": 20
+                    },
+                    {
+                      "type": "text",
+                      "id": "7iNab",
+                      "name": "card3Body",
+                      "fill": "#5A5A5A",
+                      "textGrowth": "fixed-width",
+                      "width": 380,
+                      "content": "健康啓発活動を通じて、地域社会に貢献しています。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fxwQ5",
+          "name": "footer",
+          "width": "fill_container",
+          "fill": "#2D2D2D",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "VqxkT",
+              "name": "footerLogo",
+              "fill": "#FFFFFF",
+              "content": "漢方薬 株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "w4kbN",
+              "name": "footerNav",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pyWrJ",
+                  "name": "fl1",
+                  "fill": "#ADADAD",
+                  "content": "サイトトップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "LuHUK",
+                  "name": "fl2",
+                  "fill": "#ADADAD",
+                  "content": "会社概要",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "G9uMh",
+                  "name": "fl3",
+                  "fill": "#ADADAD",
+                  "content": "製品一覧",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "C94Kr",
+                  "name": "fl4",
+                  "fill": "#ADADAD",
+                  "content": "沿革",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "rSYZt",
+                  "name": "fl5",
+                  "fill": "#ADADAD",
+                  "content": "お問い合わせ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "LF4jd",
+                  "name": "fl6",
+                  "fill": "#ADADAD",
+                  "content": "サイトマップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "EVmEu",
+              "name": "footerCopy",
+              "fill": "#8A8A8A",
+              "content": "© 2025 漢方薬株式会社 All rights reserved.",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "5uLdm",
+      "x": 1540,
+      "y": 0,
+      "name": "会社概要",
+      "width": 1440,
+      "fill": "#FAF8F5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "TYNVJ",
+          "name": "h2",
+          "width": "fill_container",
+          "height": 76,
+          "fill": "#FFFFFF",
+          "gap": 48,
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "6rEZ1",
+              "name": "logo2",
+              "fill": "#2D2D2D",
+              "content": "漢方薬 株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "gFT1i",
+              "name": "nav2Row",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wTQ1u",
+                  "name": "n2a",
+                  "fill": "#8A8A8A",
+                  "content": "サイトトップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "dOdv6",
+                  "name": "n2b",
+                  "fill": "#7C9082",
+                  "content": "会社概要",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "FIi0D",
+                  "name": "n2c",
+                  "fill": "#8A8A8A",
+                  "content": "製品一覧",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "olmIZ",
+                  "name": "n2d",
+                  "fill": "#8A8A8A",
+                  "content": "沿革",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "FB00B",
+                  "name": "n2e",
+                  "fill": "#8A8A8A",
+                  "content": "お問い合わせ",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "0HilW",
+          "name": "pageTitle2",
+          "width": "fill_container",
+          "fill": "#F0EDE8",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            48,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "CShY5",
+              "name": "pt2Text",
+              "fill": "#2D2D2D",
+              "content": "会社概要",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "c2vry",
+              "name": "pt2Sub",
+              "fill": "#8A8A8A",
+              "content": "Company",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "9mTCX",
+          "name": "aboutContent",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "B1kjj",
+              "name": "ab1",
+              "fill": "#2D2D2D",
+              "content": "私たちについて",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "sHVRH",
+              "name": "ab2",
+              "fill": "#5A5A5A",
+              "textGrowth": "fixed-width",
+              "width": 800,
+              "content": "漢方薬株式会社は、創業より漢方薬の製造・販売を行い、",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "7Robe",
+              "name": "ab3",
+              "fill": "#5A5A5A",
+              "textGrowth": "fixed-width",
+              "width": 800,
+              "content": "お客様の健康と安心に寄与することを目指しています。",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "IsLUo",
+              "name": "infoTable",
+              "width": 600,
+              "fill": "#FFFFFF",
+              "cornerRadius": 20,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VuILP",
+                  "name": "row1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E8E4DF"
+                  },
+                  "padding": [
+                    16,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ApiCP",
+                      "name": "row1a",
+                      "fill": "#8A8A8A",
+                      "content": "会社名",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vZ5hm",
+                      "name": "row1b",
+                      "fill": "#2D2D2D",
+                      "content": "漢方薬株式会社",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BLJeG",
+                  "name": "row2",
+                  "width": "fill_container",
+                  "padding": [
+                    16,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZULH3",
+                      "name": "row2a",
+                      "fill": "#8A8A8A",
+                      "content": "所在地",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i5mgv",
+                      "name": "row2b",
+                      "fill": "#2D2D2D",
+                      "textGrowth": "fixed-width",
+                      "width": 400,
+                      "content": "〒100-0001 東京都千代田区〇〇1-2-3",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "klyDz",
+          "name": "ft2",
+          "width": "fill_container",
+          "fill": "#2D2D2D",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "xnAKk",
+              "name": "ft2Logo",
+              "fill": "#FFFFFF",
+              "content": "漢方薬 株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "0UueL",
+              "name": "ft2Nav",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AdpOX",
+                  "name": "ft2a",
+                  "fill": "#ADADAD",
+                  "content": "サイトトップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "3hGdb",
+                  "name": "ft2b",
+                  "fill": "#ADADAD",
+                  "content": "会社概要",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "crvPe",
+                  "name": "ft2c",
+                  "fill": "#ADADAD",
+                  "content": "製品一覧",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "vxvQf",
+                  "name": "ft2d",
+                  "fill": "#ADADAD",
+                  "content": "沿革",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "tBqkB",
+                  "name": "ft2e",
+                  "fill": "#ADADAD",
+                  "content": "お問い合わせ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "FKomG",
+                  "name": "ft2f",
+                  "fill": "#ADADAD",
+                  "content": "サイトマップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "d1Q8v",
+              "name": "ft2Copy",
+              "fill": "#8A8A8A",
+              "content": "© 2025 漢方薬株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "wektT",
+      "x": 3080,
+      "y": 0,
+      "name": "製品一覧",
+      "width": 1440,
+      "fill": "#FAF8F5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "hi3o7",
+          "name": "h3",
+          "width": "fill_container",
+          "height": 76,
+          "fill": "#FFFFFF",
+          "gap": 48,
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "9rUFr",
+              "name": "logo3",
+              "fill": "#2D2D2D",
+              "content": "漢方薬 株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "1etMS",
+              "name": "nav3Row",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AKwnE",
+                  "name": "n3a",
+                  "fill": "#8A8A8A",
+                  "content": "サイトトップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "7QGWH",
+                  "name": "n3b",
+                  "fill": "#8A8A8A",
+                  "content": "会社概要",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wNqD6",
+                  "name": "n3c",
+                  "fill": "#7C9082",
+                  "content": "製品一覧",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "Fj9ib",
+                  "name": "n3d",
+                  "fill": "#8A8A8A",
+                  "content": "沿革",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "bBFIE",
+                  "name": "n3e",
+                  "fill": "#8A8A8A",
+                  "content": "お問い合わせ",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fQs5l",
+          "name": "pt3",
+          "width": "fill_container",
+          "fill": "#F0EDE8",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            48,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "vQg1R",
+              "name": "pt3Text",
+              "fill": "#2D2D2D",
+              "content": "製品一覧",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "normal",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "XYgro",
+              "name": "pt3Sub",
+              "fill": "#8A8A8A",
+              "content": "Products",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ja46X",
+          "name": "prodSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            48,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "xSuW1",
+              "name": "prodTitle",
+              "fill": "#2D2D2D",
+              "content": "主な製品",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "vkN2H",
+              "name": "prodGrid",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EnRzX",
+                  "name": "pcard1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XeBls",
+                      "name": "pc1t",
+                      "fill": "#2D2D2D",
+                      "content": "葛根湯",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "J6yRB",
+                      "name": "pc1d",
+                      "fill": "#5A5A5A",
+                      "textGrowth": "fixed-width",
+                      "width": 380,
+                      "content": "かぜのひきはじめに。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BMk2K",
+                  "name": "pcard2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WcJji",
+                      "name": "pc2t",
+                      "fill": "#2D2D2D",
+                      "content": "八味地黄丸",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hdJ3x",
+                      "name": "pc2d",
+                      "fill": "#5A5A5A",
+                      "textGrowth": "fixed-width",
+                      "width": 380,
+                      "content": "疲れや冷えに。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "958TE",
+                  "name": "pcard3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZvotK",
+                      "name": "pc3t",
+                      "fill": "#2D2D2D",
+                      "content": "加味逍遙散",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nXYzm",
+                      "name": "pc3d",
+                      "fill": "#5A5A5A",
+                      "textGrowth": "fixed-width",
+                      "width": 380,
+                      "content": "女性の不調に。",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Nedwx",
+          "name": "ft3",
+          "width": "fill_container",
+          "fill": "#2D2D2D",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "o2C3L",
+              "name": "ft3L",
+              "fill": "#FFFFFF",
+              "content": "漢方薬 株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "3oaAH",
+              "name": "ft3N",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pBKsR",
+                  "name": "ft3a",
+                  "fill": "#ADADAD",
+                  "content": "サイトトップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "I7PVT",
+                  "name": "ft3b",
+                  "fill": "#ADADAD",
+                  "content": "会社概要",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "RCV0Z",
+                  "name": "ft3c",
+                  "fill": "#ADADAD",
+                  "content": "製品一覧",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "w5YWy",
+                  "name": "ft3d",
+                  "fill": "#ADADAD",
+                  "content": "沿革",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "yE5pX",
+                  "name": "ft3e",
+                  "fill": "#ADADAD",
+                  "content": "お問い合わせ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "aagiZ",
+                  "name": "ft3f",
+                  "fill": "#ADADAD",
+                  "content": "サイトマップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Dbet1",
+              "name": "ft3Copy",
+              "fill": "#8A8A8A",
+              "content": "© 2025 漢方薬株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "jMlFV",
+      "x": 0,
+      "y": 1100,
+      "name": "沿革",
+      "width": 1440,
+      "fill": "#FAF8F5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "asn6J",
+          "name": "h4",
+          "width": "fill_container",
+          "height": 76,
+          "fill": "#FFFFFF",
+          "gap": 48,
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "OeRHj",
+              "name": "logo4",
+              "fill": "#2D2D2D",
+              "content": "漢方薬 株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "mydPd",
+              "name": "nav4Row",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xYNJu",
+                  "name": "n4a",
+                  "fill": "#8A8A8A",
+                  "content": "サイトトップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "cNiTR",
+                  "name": "n4b",
+                  "fill": "#8A8A8A",
+                  "content": "会社概要",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "eJOfn",
+                  "name": "n4c",
+                  "fill": "#8A8A8A",
+                  "content": "製品一覧",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "5xDpy",
+                  "name": "n4d",
+                  "fill": "#7C9082",
+                  "content": "沿革",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "b5c8L",
+                  "name": "n4e",
+                  "fill": "#8A8A8A",
+                  "content": "お問い合わせ",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ANdtu",
+          "name": "pt4",
+          "width": "fill_container",
+          "fill": "#F0EDE8",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            48,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "UgUNv",
+              "name": "pt4Text",
+              "fill": "#2D2D2D",
+              "content": "沿革",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "normal",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "CCy3L",
+              "name": "pt4Sub",
+              "fill": "#8A8A8A",
+              "content": "History",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vIH84",
+          "name": "histSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "CURrT",
+              "name": "histTitle",
+              "fill": "#2D2D2D",
+              "content": "会社の歩み",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "l971Q",
+              "name": "timeline",
+              "width": 700,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6R5aZ",
+                  "name": "t1",
+                  "width": "fill_container",
+                  "gap": 32,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eHxS1",
+                      "name": "t1y",
+                      "fill": "#7C9082",
+                      "content": "1980年",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3l5VF",
+                      "name": "t1c",
+                      "fill": "#2D2D2D",
+                      "textGrowth": "fixed-width",
+                      "width": 500,
+                      "content": "創業。漢方薬の製造・販売を開始。",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "6U7oe",
+                  "name": "t2",
+                  "width": "fill_container",
+                  "gap": 32,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KGxmQ",
+                      "name": "t2y",
+                      "fill": "#7C9082",
+                      "content": "1995年",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MK36n",
+                      "name": "t2c",
+                      "fill": "#2D2D2D",
+                      "textGrowth": "fixed-width",
+                      "width": 500,
+                      "content": "本社ビル竣工。研究施設を拡充。",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0KBwL",
+                  "name": "t3",
+                  "width": "fill_container",
+                  "gap": 32,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "29FsZ",
+                      "name": "t3y",
+                      "fill": "#7C9082",
+                      "content": "2010年",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tpCuE",
+                      "name": "t3c",
+                      "fill": "#2D2D2D",
+                      "textGrowth": "fixed-width",
+                      "width": 500,
+                      "content": "ISO取得。品質管理体制を強化。",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OHmEu",
+                  "name": "t4",
+                  "width": "fill_container",
+                  "gap": 32,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ndoex",
+                      "name": "t4y",
+                      "fill": "#7C9082",
+                      "content": "2020年",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dTxVU",
+                      "name": "t4c",
+                      "fill": "#2D2D2D",
+                      "textGrowth": "fixed-width",
+                      "width": 500,
+                      "content": "創立40周年。新ブランドを発表。",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DgErT",
+          "name": "ft4",
+          "width": "fill_container",
+          "fill": "#2D2D2D",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Xm85N",
+              "name": "ft4L",
+              "fill": "#FFFFFF",
+              "content": "漢方薬 株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "p9bMT",
+              "name": "ft4N",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l3la2",
+                  "name": "ft4a",
+                  "fill": "#ADADAD",
+                  "content": "サイトトップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "sZ1mT",
+                  "name": "ft4b",
+                  "fill": "#ADADAD",
+                  "content": "会社概要",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Rl8TH",
+                  "name": "ft4c",
+                  "fill": "#ADADAD",
+                  "content": "製品一覧",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "AtAad",
+                  "name": "ft4d",
+                  "fill": "#ADADAD",
+                  "content": "沿革",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "4r90r",
+                  "name": "ft4e",
+                  "fill": "#ADADAD",
+                  "content": "お問い合わせ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Q9gHP",
+                  "name": "ft4f",
+                  "fill": "#ADADAD",
+                  "content": "サイトマップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "mAYVY",
+              "name": "ft4Copy",
+              "fill": "#8A8A8A",
+              "content": "© 2025 漢方薬株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "msfRo",
+      "x": 1540,
+      "y": 1100,
+      "name": "お問い合わせ",
+      "width": 1440,
+      "fill": "#FAF8F5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "hcih5",
+          "name": "h5",
+          "width": "fill_container",
+          "height": 76,
+          "fill": "#FFFFFF",
+          "gap": 48,
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Wv75m",
+              "name": "logo5",
+              "fill": "#2D2D2D",
+              "content": "漢方薬 株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "u3Dqg",
+              "name": "nav5Row",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zU7Wi",
+                  "name": "n5a",
+                  "fill": "#8A8A8A",
+                  "content": "サイトトップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Cg5Cs",
+                  "name": "n5b",
+                  "fill": "#8A8A8A",
+                  "content": "会社概要",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "VA0Lh",
+                  "name": "n5c",
+                  "fill": "#8A8A8A",
+                  "content": "製品一覧",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "B7xgz",
+                  "name": "n5d",
+                  "fill": "#8A8A8A",
+                  "content": "沿革",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "JyNy7",
+                  "name": "n5e",
+                  "fill": "#7C9082",
+                  "content": "お問い合わせ",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PABLE",
+          "name": "pt5",
+          "width": "fill_container",
+          "fill": "#F0EDE8",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            48,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gUFTR",
+              "name": "pt5Text",
+              "fill": "#2D2D2D",
+              "content": "お問い合わせ",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "normal",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "iPIsh",
+              "name": "pt5Sub",
+              "fill": "#8A8A8A",
+              "content": "Contact",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3ZfhV",
+          "name": "formSection",
+          "width": 600,
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "mLtTU",
+              "name": "formTitle",
+              "fill": "#2D2D2D",
+              "content": "お問い合わせフォーム",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Hm2Fj",
+              "name": "formRow1",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "u54gF",
+                  "name": "label1",
+                  "fill": "#8A8A8A",
+                  "content": "お名前（必須）",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "u9aGE",
+                  "name": "input1",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E8E4DF"
+                  },
+                  "padding": [
+                    12,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "em4XM",
+                      "name": "input1ph",
+                      "fill": "#ADADAD",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kYGu3",
+              "name": "formRow2",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nKecc",
+                  "name": "label2",
+                  "fill": "#8A8A8A",
+                  "content": "メールアドレス（必須）",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "skiX4",
+                  "name": "input2",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E8E4DF"
+                  },
+                  "padding": [
+                    12,
+                    16
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XdRRG",
+              "name": "formRow3",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NHvAV",
+                  "name": "label3",
+                  "fill": "#8A8A8A",
+                  "content": "お問い合わせ内容",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "FA4J4",
+                  "name": "input3",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E8E4DF"
+                  },
+                  "padding": [
+                    12,
+                    16
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ik7Pr",
+              "name": "submitBtn",
+              "fill": "#7C9082",
+              "cornerRadius": 24,
+              "padding": [
+                16,
+                32
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "b8Ui9",
+                  "name": "submitText",
+                  "fill": "#FFFFFF",
+                  "content": "送信する",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "h2lXx",
+          "name": "ft5",
+          "width": "fill_container",
+          "fill": "#2D2D2D",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "BVcm9",
+              "name": "ft5L",
+              "fill": "#FFFFFF",
+              "content": "漢方薬 株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "VICFW",
+              "name": "ft5N",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dpTqC",
+                  "name": "ft5a",
+                  "fill": "#ADADAD",
+                  "content": "サイトトップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "SWuSF",
+                  "name": "ft5b",
+                  "fill": "#ADADAD",
+                  "content": "会社概要",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Ik94Y",
+                  "name": "ft5c",
+                  "fill": "#ADADAD",
+                  "content": "製品一覧",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "xRNJU",
+                  "name": "ft5d",
+                  "fill": "#ADADAD",
+                  "content": "沿革",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "BzjNi",
+                  "name": "ft5e",
+                  "fill": "#ADADAD",
+                  "content": "お問い合わせ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "3Wmuj",
+                  "name": "ft5f",
+                  "fill": "#ADADAD",
+                  "content": "サイトマップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "oNqOZ",
+              "name": "ft5Copy",
+              "fill": "#8A8A8A",
+              "content": "© 2025 漢方薬株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "m5U8P",
+      "x": 3080,
+      "y": 1100,
+      "name": "サイトマップ",
+      "width": 1440,
+      "fill": "#FAF8F5",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "pN7UN",
+          "name": "h6",
+          "width": "fill_container",
+          "height": 76,
+          "fill": "#FFFFFF",
+          "gap": 48,
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "mEULl",
+              "name": "logo6",
+              "fill": "#2D2D2D",
+              "content": "漢方薬 株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "s31X0",
+              "name": "nav6Row",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "X42Af",
+                  "name": "n6a",
+                  "fill": "#8A8A8A",
+                  "content": "サイトトップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "6ANyc",
+                  "name": "n6b",
+                  "fill": "#8A8A8A",
+                  "content": "会社概要",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "WwUq4",
+                  "name": "n6c",
+                  "fill": "#8A8A8A",
+                  "content": "製品一覧",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "VPUv8",
+                  "name": "n6d",
+                  "fill": "#8A8A8A",
+                  "content": "沿革",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "PIJia",
+                  "name": "n6e",
+                  "fill": "#8A8A8A",
+                  "content": "お問い合わせ",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "7HoX1",
+                  "name": "n6f",
+                  "fill": "#7C9082",
+                  "content": "サイトマップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "u7eg8",
+          "name": "pt6",
+          "width": "fill_container",
+          "fill": "#F0EDE8",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            48,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "xcjTC",
+              "name": "pt6Text",
+              "fill": "#2D2D2D",
+              "content": "サイトマップ",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "normal",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "c9axw",
+              "name": "pt6Sub",
+              "fill": "#8A8A8A",
+              "content": "Sitemap",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cn7MS",
+          "name": "smapSection",
+          "width": 500,
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            48,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "T2EBT",
+              "name": "smapTitle",
+              "fill": "#2D2D2D",
+              "content": "当サイトのページ一覧",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "5ztjT",
+              "name": "link1",
+              "fill": "#7C9082",
+              "content": "サイトトップ",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "cLSwL",
+              "name": "link2",
+              "fill": "#7C9082",
+              "content": "会社概要",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "bnh5X",
+              "name": "link3",
+              "fill": "#7C9082",
+              "content": "製品一覧",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "7HOUn",
+              "name": "link4",
+              "fill": "#7C9082",
+              "content": "沿革",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "TS7cG",
+              "name": "link5",
+              "fill": "#7C9082",
+              "content": "お問い合わせ",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "cnyC3",
+              "name": "link6",
+              "fill": "#7C9082",
+              "content": "サイトマップ",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CHZvA",
+          "name": "ft6",
+          "width": "fill_container",
+          "fill": "#2D2D2D",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "vLca9",
+              "name": "ft6L",
+              "fill": "#FFFFFF",
+              "content": "漢方薬 株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "6BbNf",
+              "name": "ft6N",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "enY0S",
+                  "name": "ft6a",
+                  "fill": "#ADADAD",
+                  "content": "サイトトップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "hUCC5",
+                  "name": "ft6b",
+                  "fill": "#ADADAD",
+                  "content": "会社概要",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "AUsBs",
+                  "name": "ft6c",
+                  "fill": "#ADADAD",
+                  "content": "製品一覧",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "r7JmX",
+                  "name": "ft6d",
+                  "fill": "#ADADAD",
+                  "content": "沿革",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "oo56s",
+                  "name": "ft6e",
+                  "fill": "#ADADAD",
+                  "content": "お問い合わせ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "b6Kad",
+                  "name": "ft6f",
+                  "fill": "#ADADAD",
+                  "content": "サイトマップ",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "obq3q",
+              "name": "ft6Copy",
+              "fill": "#8A8A8A",
+              "content": "© 2025 漢方薬株式会社",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+/* 漢方薬コーポレートサイト - デザイントークン */
+:root {
+  --color-bg: #FAF8F5;
+  --color-bg-hero: #F0EDE8;
+  --color-card: #FFFFFF;
+  --color-sage: #7C9082;
+  --color-sage-tint: #7C908215;
+  --color-text: #2D2D2D;
+  --color-text-body: #5A5A5A;
+  --color-text-muted: #8A8A8A;
+  --color-text-footer: #ADADAD;
+  --color-border: #E8E4DF;
+  --color-footer-bg: #2D2D2D;
+  --font-sans: var(--font-inter), "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --radius-card: 20px;
+  --radius-button: 24px;
+  --radius-input: 12px;
+  --header-height: 76px;
+  --content-max: 1280px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+
+/* ========== レイアウト ========== */
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1;
+}
+
+/* ========== ヘッダー ========== */
+.header {
+  height: var(--header-height);
+  padding: 20px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--color-card);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.header__logo {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-text);
+  letter-spacing: -0.5px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav__link {
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.nav__link--current {
+  font-weight: 500;
+  color: var(--color-sage);
+}
+
+/* ========== ヒーロー ========== */
+.hero {
+  width: 100%;
+  min-height: 500px;
+  padding: 80px 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  background: var(--color-bg-hero);
+}
+
+.hero__title {
+  font-size: 48px;
+  font-weight: 400;
+  color: var(--color-text);
+  letter-spacing: -1px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.hero__sub {
+  font-size: 18px;
+  color: var(--color-text-body);
+  max-width: 480px;
+  margin: 0;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  border-radius: var(--radius-button);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn--primary {
+  background: var(--color-sage);
+  color: var(--color-card);
+}
+
+/* ========== セクション共通 ========== */
+.section {
+  width: 100%;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section__title {
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--color-text);
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+.section__lead {
+  font-size: 15px;
+  color: var(--color-text-body);
+  max-width: 800px;
+  margin: 0;
+}
+
+/* ========== カードグリッド ========== */
+.card-row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.card {
+  flex: 1;
+  padding: 28px;
+  border-radius: var(--radius-card);
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.card__body {
+  font-size: 14px;
+  color: var(--color-text-body);
+  margin: 0;
+}
+
+/* ========== ページタイトル帯 ========== */
+.page-title-band {
+  width: 100%;
+  padding: 48px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background: var(--color-bg-hero);
+}
+
+.page-title-band__title {
+  font-size: 48px;
+  font-weight: 400;
+  color: var(--color-text);
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+.page-title-band__sub {
+  font-size: 14px;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+/* ========== 会社概要・情報テーブル ========== */
+.content-section {
+  width: 100%;
+  padding: 48px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.content-section__title {
+  font-size: 24px;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.info-table {
+  width: 100%;
+  max-width: 600px;
+  border-radius: var(--radius-card);
+  background: var(--color-card);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.info-table__row {
+  display: flex;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.info-table__row:last-child {
+  border-bottom: none;
+}
+
+.info-table__label {
+  width: 140px;
+  flex-shrink: 0;
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.info-table__value {
+  font-size: 14px;
+  color: var(--color-text);
+}
+
+/* ========== 製品カード ========== */
+.products-section {
+  width: 100%;
+  padding: 48px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.products-grid {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.product-card {
+  flex: 1;
+  padding: 20px;
+  border-radius: var(--radius-card);
+  background: var(--color-card);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.product-card__name {
+  font-size: 18px;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.product-card__desc {
+  font-size: 14px;
+  color: var(--color-text-body);
+  margin: 0;
+}
+
+/* ========== 沿革タイムライン ========== */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+}
+
+.timeline__item {
+  display: flex;
+  gap: 32px;
+  padding: 16px 0;
+}
+
+.timeline__year {
+  width: 80px;
+  flex-shrink: 0;
+  font-size: 14px;
+  color: var(--color-sage);
+}
+
+.timeline__text {
+  font-size: 15px;
+  color: var(--color-text);
+  margin: 0;
+}
+
+/* ========== お問い合わせフォーム ========== */
+.form-section {
+  width: 100%;
+  max-width: 600px;
+  padding: 48px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-section__title {
+  font-size: 20px;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group__label {
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.form-group__input,
+.form-group__textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: var(--radius-input);
+  border: 1px solid var(--color-border);
+  font-size: 14px;
+  font-family: var(--font-sans);
+  background: var(--color-card);
+  color: var(--color-text);
+}
+
+.form-group__input {
+  height: 48px;
+}
+
+.form-group__textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-group__input::placeholder,
+.form-group__textarea::placeholder {
+  color: var(--color-text-footer);
+}
+
+/* ========== サイトマップ ========== */
+.sitemap-section {
+  width: 100%;
+  max-width: 500px;
+  padding: 48px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sitemap-section__title {
+  font-size: 20px;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.sitemap-section__link {
+  font-size: 15px;
+  color: var(--color-sage);
+}
+
+/* ========== フッター ========== */
+.footer {
+  width: 100%;
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: var(--color-footer-bg);
+}
+
+.footer__logo {
+  font-size: 16px;
+  color: var(--color-card);
+  margin: 0;
+}
+
+.footer__nav {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer__link {
+  font-size: 13px;
+  color: var(--color-text-footer);
+}
+
+.footer__copy {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+/* ========== レスポンシブ ========== */
+@media (max-width: 1024px) {
+  .header,
+  .footer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .hero {
+    padding: 60px 24px;
+  }
+  .section,
+  .content-section,
+  .products-section,
+  .form-section,
+  .sitemap-section {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .page-title-band {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .card-row,
+  .products-grid {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 16px;
+    gap: 16px;
+  }
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  .hero__title {
+    font-size: 32px;
+  }
+}
